@@ -20,7 +20,11 @@ Note: kill will run `docker stop` and `docker rm` on _all_ containers (through e
 
 Let's say I want to start a new project using Anaconda for Python 2.x
 Make sure the scripts are placed in an appropriate location, I usually go with the root folder of my current project.
+
 On Windows:
+
 `./build.ps1 anaconda2`
+
 On Linux/macOS:
+
 `./build.sh anaconda2`
